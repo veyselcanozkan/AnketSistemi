@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+   <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+       <title>Online Anket ve Eşsiz Oy Takip Sistemi</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link href="css/style.css" rel="stylesheet"
+    </head>
+    <body class="bg-light">
+     <div class="container mt-5">
+         <div class="row justify-content-center">
+             <div class="col-md-6 col-lg-4">
+                 <!-- KART YAPISI-->
+                 <div class ="card shadow">
+                     <!-- KART BAŞLIĞI-->
+                     <div class="card-header bg-primary text-white text-center">
+                         <h4>Hoşgeldiniz</h4>
+                     </div>
+                     <!-- KART İÇERİĞİ-->
+                     <div class="card-body">
+                         <form id="loginForm" novalidate>
+                             <!--EMAİL ALANI-->
+                             <div class="mb-3">
+                                 <label for="email" class="form-label">E-Posta</label>
+                                 <input 
+                                     type="email"
+                                     class="form-control"
+                                     id="email"
+                                     placeholder="ornek@gmail.com"
+                                     required <!--Zorunlu Alan-->
+                                   
+                                 <div class="invalid-feedback">
+                                     Lütfen geçerli bir e-posta girin!
+                                 </div>
+                             </div>
+                             <!--ŞİFRE ALANI-->
+                             <div class="mb-3">
+                                 <label for="password" class="form-label">Şifre</label>
+                                 <input
+                                     type="password"
+                                     class="form-control"
+                                     id="password"
+                                     minlength="6"
+                                     required
+                                />
+                                 <div class="invalid-feedback">
+                                     Şifre en az 6 karakter olmalıdır!
+                                 </div>
+                             </div>
+                             <!--GÖNDER BUTONU-->
+                             <button
+                                 type="submit"
+                                 class="btn btn-primary w-100"
+                             >
+                                 Giriş Yap
+                             </button>
+                         </form>
+                         <!--KAYIT LİNKİ-->
+                         <div class="text-center mt-3">
+                             <a href="#!" class="text-decoration-none">
+                                 Hesabınız yok mu? <strong>Kayıt Olun</strong>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+         </div>
+     </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+    </body>
+</html>
