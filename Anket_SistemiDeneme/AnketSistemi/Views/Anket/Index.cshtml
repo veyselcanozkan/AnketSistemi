@@ -1,0 +1,13 @@
+@model AnketSistemi.Models.Soru
+
+<h2>Anket</h2>
+
+<form asp-action="Cevapla" method="post">
+    <div>
+        <h4>@Model.Metin</h4>
+        <input type="text" name="cevap" class="form-control" required />
+    </div>
+    <br />
+    <button type="submit" name="islem" value="ileri" class="btn btn-primary">İleri</button>
+    <button type="submit" name="islem" value="geri" class="btn btn-secondary">Geri</button>
+</form>

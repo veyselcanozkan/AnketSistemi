@@ -1,0 +1,23 @@
+@model IEnumerable<AnketSistemi.Models.CevapliSoru>
+
+<h2>Anket Sonuçları</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Soru</th>
+            <th>Cevap</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Soru.Metin</td>
+            <td>@item.Cevap</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a class="btn btn-success" href="/Anket/Index">Ankete Yeniden Başla</a>
