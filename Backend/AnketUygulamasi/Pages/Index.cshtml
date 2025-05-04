@@ -1,0 +1,32 @@
+﻿@page
+@model AnketUygulamasi.Pages.IndexModel
+@{
+    ViewData["Title"] = "Anket";
+}
+
+<h2>Online Anket</h2>
+
+<form method="post">
+    <label>Ad Soyad:</label>
+    <input type="text" asp-for="AdSoyad" required />
+    <br />
+    <label>Yaş:</label>
+    <input type="number" asp-for="Yas" required />
+    <br />
+    <label>Seçiminiz:</label>
+    <select asp-for="Secim">
+        <option value="Futbol">Futbol</option>
+        <option value="Voleybol">Voleybol</option>
+    </select>
+    <br />
+    <button type="submit">Oy Ver</button>
+</form>
+
+<h3>Yönlendirmeli Sorular</h3>
+@if (Model.Sorular != null)
+{
+    foreach (var soru in Model.Sorular)
+    {
+        <p>@soru</p>
+    }
+}

@@ -599,23 +599,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EXCALIBUR\\.nuget\\packages\\": {},
+    "C:\\Users\\baris\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EXCALIBUR\\OneDrive - uludag.edu.tr\\Masaüstü\\Anket_SistemiDeneme\\AnketSistemi\\AnketSistemi.csproj",
+      "projectUniqueName": "C:\\Users\\baris\\AnketSistemi\\Anket_SistemiDeneme\\AnketSistemi\\AnketSistemi.csproj",
       "projectName": "AnketSistemi",
-      "projectPath": "C:\\Users\\EXCALIBUR\\OneDrive - uludag.edu.tr\\Masaüstü\\Anket_SistemiDeneme\\AnketSistemi\\AnketSistemi.csproj",
-      "packagesPath": "C:\\Users\\EXCALIBUR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EXCALIBUR\\OneDrive - uludag.edu.tr\\Masaüstü\\Anket_SistemiDeneme\\AnketSistemi\\obj\\",
+      "projectPath": "C:\\Users\\baris\\AnketSistemi\\Anket_SistemiDeneme\\AnketSistemi\\AnketSistemi.csproj",
+      "packagesPath": "C:\\Users\\baris\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\baris\\AnketSistemi\\Anket_SistemiDeneme\\AnketSistemi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\EXCALIBUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\baris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -672,7 +672,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
