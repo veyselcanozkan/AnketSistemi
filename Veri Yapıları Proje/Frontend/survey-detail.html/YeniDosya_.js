@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const surveyContainer = document.getElementById("Anket_Alanı");
+    const surveyContainer = document.getElementById("Anket_Kısmı");
     const submitSurvey = document.getElementById("Gönder");
     const surveyData = [
         {
