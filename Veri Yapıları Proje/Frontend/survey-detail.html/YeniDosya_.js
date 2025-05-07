@@ -78,8 +78,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         else {
             alert("Yanıtlama işlemi tamamlanmıştır.");
+            ana_Sayfa();
             //Backend eklenecektir.
-            fetch("", 
+            /*fetch("", 
                 {
                 method: "POST",
                 headers: {
@@ -93,11 +94,13 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .catch(error => {
                 console.error("Error:", error);
-            });
+            });*/
         }
     });
 });
-
+function ana_Sayfa(){
+    window.location.href='http://127.0.0.1:5500/Veri%20Yap%C4%B1lar%C4%B1%20Proje/Frontend/Ana_Sayfa.html'
+}
         
 
 
