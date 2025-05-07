@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const başlık=document.getElementById("surveyTitle");
+    başlık.innerText="Mağaza Anketi"
     const surveyContainer = document.getElementById("Anket_Kısmı");
     const submitSurvey = document.getElementById("Gönder");
     const surveyData = [
